@@ -42,7 +42,7 @@ function Landing() {
           ></motion.div>
         </>
       ) : (
-        <motion.div
+        <div
           className="absolute z-10 inset-0 bg-cover bg-center "
           style={{ backgroundImage: `url('/background.png')` }}
         >
@@ -91,7 +91,7 @@ function Landing() {
               </div>
             </motion.div>
           </div>
-        </motion.div>
+        </div>
       )}
     </div>
   );
